@@ -1,0 +1,47 @@
+body {
+    background: repeating-linear-gradient(
+        90deg,
+        #664a9b 10px,
+        #664a9b 10px,
+        #777f85 50px,
+        #777f85 70px
+    );
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: #eef2f3;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px#2b5a80;
+}
+
+label{
+    font-family:  monospace;
+    color: #85f8f8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 10rem;
+}
+
+button{
+    color: #193246;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 200ms;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+button:hover{
+    background-color: #2b5a80;
+    color: #eff3f0;
+    border: none;
+   
+}
